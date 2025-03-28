@@ -1,3 +1,7 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+
 const heading = React.createElement("div", {}, [React.createElement("h1", {}, "Hello World!"),
     React.createElement("p", {}, "This is a paragraph")
 ]);

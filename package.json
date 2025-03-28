@@ -1,0 +1,28 @@
+{
+  "name": "reactnamaste",
+  "version": "1.0.0",
+  "description": "\"React Series\"",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Santoshoo/Namastereact.git"
+  },
+  "keywords": [
+    "\"react\""
+  ],
+  "author": "Santosh Sahoo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Santoshoo/Namastereact/issues"
+  },
+  "homepage": "https://github.com/Santoshoo/Namastereact#readme",
+  "devDependencies": {
+    "parcel": "^2.14.2"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
