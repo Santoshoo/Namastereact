@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "\"React Series\"",
   "scripts": {
+    "start": " parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -19,6 +21,7 @@
   },
   "homepage": "https://github.com/Santoshoo/Namastereact#readme",
   "devDependencies": {
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.14.2"
   },
   "dependencies": {
