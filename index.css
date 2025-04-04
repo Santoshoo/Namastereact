@@ -1,0 +1,65 @@
+.header{
+    background-color: #282c34;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-items-list{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+}
+.body {
+    display: flex;
+    justify-content: flex-start;
+    /* Align items to the left */
+    align-items: flex-start;
+    /* Align items to the top */
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* Add some padding around the body */
+}
+
+.card {
+    height: auto;
+    /* Adjust height to fit content */
+    width: 300px;
+    /* Set a reasonable width for the card */
+    padding: 20px;
+    /* Add padding for spacing inside the card */
+    border: 2px solid #000;
+    /* Add a solid black border */
+    border-radius: 8px;
+    /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Add a subtle shadow */
+    text-align: center;
+    /* Center-align text inside the card */
+    margin: 0;
+    /* Remove auto-centering */
+    background-color: #f9f9f9;
+    /* Add a light background color */
+}
+
+.card img {
+    width: 80%;
+    /* Decrease the width of the image to 80% of the card */
+    height: auto;
+    /* Maintain aspect ratio */
+    border-radius: 8px;
+    /* Match the card's rounded corners */
+    margin-bottom: 10px;
+    /* Add spacing below the image */
+}
+
+.card h2,
+.card h3,
+.card h4 {
+    margin: 5px 0;
+    /* Add spacing between text elements */
+}

@@ -51,5 +51,24 @@ diff algo
 -Is jsx mandatory-no
 -Is ES6 mandantory-no
 
+-Header
+   -nav list(logo,home,about,cart)
+-Body
+
+-Footer
+https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/12/5/277cf41a-3327-482f-aee8-8516ed6a6979_ab8fd438-9302-4754-882f-92c411538338.jpg
+
+//Config Driven UI
+UI change dynamically according to the chnage of place call Config Driven UI
+
+
+
+
+#Hooks
+Just a normal function
+
+usestate:used to create state variable
+returns an array 1st is local state variable name,
+2nd function 
 
 

@@ -1,13 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
+import  {Title,Header} from "./components/Header";
+import Body from "./components/Body";
+import Footer from "./components/Footer";
 
 // const heading = React.createElement("h1", {
 //     id:"title",
 //     key:"h1"
 // },"Heading is parcel");
 // //create an h1 element with empty object as properties and "Heading is parcel" as content
-
 
 // const heading2 = React.createElement(
 //   "h1",
@@ -28,25 +29,23 @@ import ReactDOM from "react-dom/client";
 //     heading2]
 // )
 //react element:just a object
-const heading =(
-  <h1 id="h1">hhhh</h1>
-)
 
-//react component
 
-const Header=()=>{
+
+
+
+
+const AppLayout = () => {
   return (
-    <div>
-      {heading}
-      <h1>This is react component</h1>
-      <h2>This is h2 tag</h2>
-    </div>
+    <>
+      <Header />
+      <Body />
+      <Footer />
+    </>
   );
 };
 
-
 //console.log(container);//retrun object
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Header/>);//convert object to h1
+root.render(<AppLayout />); //convert object to h1
 //React.createElement () is object that represents the DOM element. It takes three arguments: the type of element, the properties of the element, and the content of the element.
-
