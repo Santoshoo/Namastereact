@@ -1,14 +1,14 @@
 import React from "react";
-import { IMG_CDN_URL,resturantList } from "../constants";
+import { IMG_CDN_URL } from "../constants";
 
 const ResturantCard = ({ name, cuisines, cloudinaryImageId }) => {
   return (
     <div className="card">
-      <img src={IMG_CDN_URL+cloudinaryImageId} />
+      <img src={`${IMG_CDN_URL}/${cloudinaryImageId}`} alt={name} />
       <h2>{name}</h2>
-      {/* <h3>{cuisines.join(",")}</h3> */}
-      {/* <h4>{burgerKing.rating} stars</h4> */}
+      <h3>{cuisines ? cuisines.join(", ") : "N/A"}</h3>
     </div>
   );
 };
+
 export default ResturantCard;

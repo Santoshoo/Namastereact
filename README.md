@@ -67,8 +67,13 @@ UI change dynamically according to the chnage of place call Config Driven UI
 #Hooks
 Just a normal function
 
-usestate:used to create state variable
+usestate:\return a array
+used to create state variable
 returns an array 1st is local state variable name,
-2nd function 
+2nd function update the variable
 
+#useEffect
+1.callback
+2.dependency array
 
+#Shimmer Design used :when we fetch some data and rernder in ui its take time to load at mean time use use Shimmer Ui for User expeeience
