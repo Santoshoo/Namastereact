@@ -77,3 +77,12 @@ returns an array 1st is local state variable name,
 2.dependency array
 
 #Shimmer Design used :when we fetch some data and rernder in ui its take time to load at mean time use use Shimmer Ui for User expeeience
+
+
+
+
+
+#SPA-Single Page Application
+Routing:
+1.Clent Side Routing
+2.Server Side Routing
