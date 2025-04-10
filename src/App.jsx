@@ -7,7 +7,7 @@ import { createBrowserRouter,RouterProvider ,Outlet} from "react-router-dom";
 import About from "./components/About";
 import Error from "./components/Error";
 import Contact from "./components/Contact"
-
+import Profile from "./components/Profile"
 // const heading = React.createElement("h1", {
 //     id:"title",
 //     key:"h1"
@@ -53,6 +53,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/about",
         element: <About />,
+        children:[{
+          path:"profile",
+          element:<Profile/>
+        }]
       },
       {
         path: "/",
